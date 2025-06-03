@@ -1,5 +1,7 @@
 🚌 Public Transport Passenger Journey Forecasting (Kovai.co Task)
+
 📌 Task Overview
+
 As part of the Kovai.co Data Science Interview Challenge, we were tasked with:
 
 📊 Analyzing the public transport dataset and deriving 4–5 key insights.
@@ -17,6 +19,7 @@ Rapid Route
 School
 
 ✅ Solution Highlights
+
 📈 Prophet was used for forecasting due to its suitability for seasonal time series data.
 
 🧹 Cleaned, sorted, and forward-filled the dataset.
@@ -47,6 +50,7 @@ Light Rail shows a steady growth pattern over time.
 All services display clear seasonal components, validating the use of time-series models.
 
 📊 Tools & Libraries
+
 Python 3.x
 
 pandas, matplotlib, seaborn
@@ -56,6 +60,7 @@ prophet (Facebook's time series forecasting model)
 statsmodels (seasonal decomposition)
 
 🧠 Why Prophet?
+
 Automatically detects seasonality and trend changes
 
 Offers interpretable components (trend, seasonality)
